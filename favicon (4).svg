@@ -1,0 +1,54 @@
+{
+  "brand_name": "Ever After Digital",
+  "tagline": "Elegant Digital Templates for Your Forever",
+  "colors": {
+    "primary_gold": "#D4AF37",
+    "deep_navy": "#001F3F",
+    "champagne": "#F7E7CE",
+    "blush_pink": "#FDE2E4",
+    "sage_green": "#B8C9B8",
+    "charcoal": "#333333",
+    "white": "#FFFFFF"
+  },
+  "typography": {
+    "headers": {
+      "font_family": "Playfair Display",
+      "style": "Serif"
+    },
+    "body": {
+      "font_family": "Montserrat",
+      "style": "Sans-Serif"
+    },
+    "accent": {
+      "font_family": "Dancing Script",
+      "style": "Script"
+    }
+  },
+  "design_styles": {
+    "classic_elegance": {
+      "colors": ["#D4AF37", "#001F3F", "#F7E7CE", "#FFFFFF"],
+      "fonts": ["Playfair Display", "Montserrat", "Great Vibes"]
+    },
+    "modern_minimalist": {
+      "colors": ["#000000", "#FFFFFF", "#F5F5F5"],
+      "fonts": ["Montserrat", "Open Sans"]
+    },
+    "wildflower_boho": {
+      "colors": ["#BC6C25", "#DDA15E", "#FEFAE0", "#606C38"],
+      "fonts": ["Playfair Display", "Dancing Script"]
+    },
+    "classic_noir": {
+      "colors": ["#000000", "#FFFFFF"],
+      "fonts": ["Pinyon Script", "Crimson Text"]
+    }
+  },
+  "assets": {
+    "logo_inspiration": "/home/team/shared/branding/logo_inspiration.png"
+  }
+}
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
+/home/engine/.bashrc: line 1: syntax error near unexpected token `('
+/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
