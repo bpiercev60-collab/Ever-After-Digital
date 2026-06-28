@@ -1,0 +1,18 @@
+{
+  "templates": [
+    {
+      "id": "save-the-date-classic",
+      "name": "Classic Elegance Save the Date",
+      "type": "Save the Date",
+      "dimensions": "5x7 inches",
+      "layers": [
+        { "name": "Background", "type": "color", "default_value": "#F7E7CE", "editable": true },
+        { "name": "Border", "type": "image/svg", "src": "/assets/gold_border.svg", "color_overlay": "#D4AF37", "editable": true },
+        { "name": "Title", "type": "text", "value": "Save the Date", "font_family": "Dancing Script", "font_size": "48px", "color": "#333333", "position": { "x": "center", "y": "20%" }, "editable": true },
+        { "name": "Couple Names", "type": "text", "value": "Emma & James", "font_family": "Playfair Display", "font_size": "36px", "color": "#333333", "position": { "x": "center", "y": "40%" }, "editable": true },
+        { "name": "Date", "type": "text", "value": "October 12th, 2024", "font_family": "Montserrat", "font_size": "18px", "color": "#333333", "position": { "x": "center", "y": "60%" }, "editable": true },
+        { "name": "Location", "type": "text", "value": "London, England", "font_family": "Montserrat", "font_size": "18px", "color": "#333333", "position": { "x": "center", "y": "70%" }, "editable": true }
+      ]
+    }
+  ]
+}
