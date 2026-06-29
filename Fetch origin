@@ -1,0 +1,2 @@
+git fetch origin
+git checkout -B fix/shared-data-public-copy origin/fix/shared-data-public-copy
