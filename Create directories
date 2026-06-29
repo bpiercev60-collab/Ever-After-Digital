@@ -1,0 +1,73 @@
+# create dirs
+mkdir -p app/public/shared-data/assets storefront/public/shared-data/assets .github/workflows
+
+# templates.json (write once and copy)
+cat > templates.json <<'JSON'
+[PASTE THE ENTIRE JSON CONTENT FROM THE templates.json BLOCK ABOVE HERE]
+JSON
+
+# copy into both project public directories
+cp templates.json app/public/shared-data/templates.json
+cp templates.json storefront/public/shared-data/templates.json
+rm templates.json
+
+# logo (app + storefront)
+cat > app/public/shared-data/assets/logo_inspiration.svg <<'SVG'
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" fill="#F7E7CE"/>
+  <text x="100" y="36" font-family="Playfair Display, serif" font-size="16" fill="#001F3F" text-anchor="middle">Ever After Digital</text>
+</svg>
+SVG
+cp app/public/shared-data/assets/logo_inspiration.svg storefront/public/shared-data/assets/logo_inspiration.svg
+
+# PR build workflow (pull_request)
+cat > .github/workflows/pr-build.yml <<'YML'
+name: pr-check-build
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install root deps
+        run: npm ci
+      - name: Build app
+        run: npm run build:app
+      - name: Build storefront
+        run: npm run build:storefront
+      - name: List artifacts
+        run: ls -la app/dist || true && ls -la storefront/dist || true
+YML
+
+# Optional: push-trigger workflow (uncomment to add)
+cat > .github/workflows/pr-build-on-push.yml <<'YML'
+name: pr-build-on-push
+on:
+  push:
+    branches: ["fix/shared-data-public-copy"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install root deps
+        run: npm ci
+      - name: Build app
+        run: npm run build:app
+      - name: Build storefront
+        run: npm run build:storefront
+      - name: List artifacts
+        run: ls -la app/dist || true && ls -la storefront/dist || true
+YML
+
+# Optional noop trigger files
+echo "# noop file to trigger workflow if needed" > app/.triggerfile
+echo "# noop file to trigger workflow if needed" > storefront/.triggerfile
