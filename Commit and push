@@ -1,0 +1,3 @@
+git add app/public/shared-data storefront/public/shared-data .github/workflows app/.triggerfile storefront/.triggerfile
+git commit -m "ci: add shared-data, logo assets, and PR build workflows"
+git push --set-upstream origin fix/shared-data-public-copy
