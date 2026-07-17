@@ -89,7 +89,7 @@ export default function App() {
           <a href="#how-it-works">How It Works</a>
           <a href="#features">Why Us</a>
           <a href="#my-designs">My Designs</a>
-          <a href="http://localhost:5173/" className="cta-btn" target="_blank" rel="noopener">
+          <a href="/editor/" className="cta-btn" target="_blank" rel="noopener">
             Start Customizing {'\u2192'}
           </a>
         </div>
@@ -100,7 +100,7 @@ export default function App() {
         <h1>Wedding Stationery,<br /><span>Beautifully Yours</span></h1>
         <p>Choose from our curated collection of professional wedding templates. Customize colors, fonts, and text — then download print-ready files instantly. Bespoke quality, without the bespoke price tag.</p>
         <div className="hero-actions">
-          <a href="http://localhost:5173/" className="btn-primary" target="_blank" rel="noopener">{'\u2728'} Start Customizing</a>
+          <a href="/editor/" className="btn-primary" target="_blank" rel="noopener">{'\u2728'} Start Customizing</a>
           <a href="#styles" className="btn-secondary">View Collections {'\u2193'}</a>
         </div>
         <div className="pricing-badge" style={{ marginTop: '2rem' }}>
@@ -166,7 +166,7 @@ export default function App() {
       <section className="cta-banner">
         <h2>Ready to Create Your Wedding Suite?</h2>
         <p>Join thousands of happy couples who designed their dream stationery in minutes.</p>
-        <a href="http://localhost:5173/" className="btn-primary" target="_blank" rel="noopener">
+        <a href="/editor/" className="btn-primary" target="_blank" rel="noopener">
           Start Customizing Free {'\u2192'}
         </a>
       </section>

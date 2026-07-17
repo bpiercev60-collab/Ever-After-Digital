@@ -37,7 +37,7 @@ export default function MyDesigns() {
           </p>
         </div>
         <div style={{ display: 'flex', gap: '0.5rem' }}>
-          <a href="http://localhost:5173/" target="_blank" rel="noopener"
+          <a href="/editor/" target="_blank" rel="noopener"
             style={{
               background: '#D4AF37', color: '#fff', padding: '0.5rem 1.25rem',
               borderRadius: 6, fontWeight: 600, fontSize: '0.85rem',
@@ -67,7 +67,7 @@ export default function MyDesigns() {
           <p style={{ color: '#888', marginBottom: '1.5rem' }}>
             Start customizing a template and save your design to see it here.
           </p>
-          <a href="http://localhost:5173/" target="_blank" rel="noopener"
+          <a href="/editor/" target="_blank" rel="noopener"
             style={{
               background: '#D4AF37', color: '#fff', padding: '0.75rem 2rem',
               borderRadius: 8, fontWeight: 600, fontSize: '0.95rem',
@@ -92,7 +92,7 @@ export default function MyDesigns() {
                   </div>
                 </div>
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
-                  <a href={"http://localhost:5173/?load=" + d.id} target="_blank" rel="noopener"
+                  <a href={"/editor/?load=" + d.id} target="_blank" rel="noopener"
                     style={{
                       background: '#001F3F', color: '#fff', padding: '0.4rem 1rem',
                       borderRadius: 6, fontWeight: 500, fontSize: '0.8rem', textDecoration: 'none',

@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 
 const LINKS = [
   {
-    href: 'http://localhost:5173/',
+    href: '/editor/',
     label: '✏️  Design Your Wedding Suite',
     desc: 'Customize templates in real-time',
     primary: true,

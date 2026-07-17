@@ -7,8 +7,8 @@ function serveSharedData() {
   return {
     name: 'serve-shared-data',
     configureServer(server) {
-      const sharedTemplates = path.resolve(__dirname, '../templates')
-      const sharedBranding = path.resolve(__dirname, '../branding')
+      const sharedTemplates = '/home/team/shared/templates'
+      const sharedBranding = '/home/team/shared/branding'
 
       server.middlewares.use('/shared-data/templates.json', (_req, res) => {
         const fp = path.join(sharedTemplates, 'templates.json')
@@ -40,6 +40,7 @@ function serveSharedData() {
 }
 
 export default defineConfig({
+  base: '/editor/',
   plugins: [react(), serveSharedData()],
   server: {
     host: '0.0.0.0',
