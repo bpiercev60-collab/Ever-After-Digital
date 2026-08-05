@@ -9,34 +9,53 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F7E7CE",
+          "default_value": "#F3EBDD",
           "editable": true
         },
         {
-          "name": "Border",
+          "name": "Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border.svg",
-          "color_overlay": "#D4AF37",
+          "color_overlay": "#7A6650",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "Save the Date",
-          "font_family": "Dancing Script",
-          "font_size": "48px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "20%" },
+          "font_family": "Cormorant Garamond",
+          "font_size": "54px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "18%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Headline",
+          "type": "text",
+          "value": "PLEASE JOIN US FOR THE WEDDING OF",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "32%"
+          },
           "editable": true
         },
         {
           "name": "Couple Names",
           "type": "text",
           "value": "Emma & James",
-          "font_family": "Playfair Display",
-          "font_size": "36px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "40%" },
+          "font_family": "Cormorant Garamond",
+          "font_size": "42px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "45%"
+          },
           "editable": true
         },
         {
@@ -44,9 +63,23 @@
           "type": "text",
           "value": "October 12th, 2024",
           "font_family": "Montserrat",
-          "font_size": "18px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "60%" },
+          "font_size": "16px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "65%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
           "editable": true
         },
         {
@@ -54,9 +87,12 @@
           "type": "text",
           "value": "London, England",
           "font_family": "Montserrat",
-          "font_size": "18px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "70%" },
+          "font_size": "16px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "72%"
+          },
           "editable": true
         }
       ]
@@ -70,54 +106,90 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#FFFFFF",
+          "default_value": "#F3EBDD",
           "editable": true
         },
         {
-          "name": "Border",
+          "name": "Heavy Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border_thick.svg",
-          "color_overlay": "#D4AF37",
+          "color_overlay": "#7A6650",
           "editable": true
         },
         {
           "name": "Header",
           "type": "text",
-          "value": "The Wedding of",
+          "value": "TOGETHER WITH THEIR FAMILIES",
           "font_family": "Montserrat",
-          "font_size": "14px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "15%" },
+          "font_size": "10px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "15%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Announcement",
+          "type": "text",
+          "value": "REQUEST THE HONOR OF YOUR PRESENCE AT THE WEDDING OF",
+          "font_family": "Montserrat",
+          "font_size": "10px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "22%"
+          },
           "editable": true
         },
         {
           "name": "Couple Names",
           "type": "text",
           "value": "Emma & James",
-          "font_family": "Playfair Display",
-          "font_size": "42px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "25%" },
+          "font_family": "Cormorant Garamond",
+          "font_size": "48px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "38%"
+          },
           "editable": true
         },
         {
           "name": "Details",
           "type": "text",
-          "value": "Saturday, the twelfth of October\ntwo thousand twenty-four\nat four o’clock in the afternoon",
+          "value": "SATURDAY, THE TWELFTH OF OCTOBER\nTWO THOUSAND TWENTY-FOUR\nAT FOUR O\u2019CLOCK IN THE AFTERNOON",
           "font_family": "Montserrat",
-          "font_size": "16px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "50%" },
+          "font_size": "14px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "60%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
           "editable": true
         },
         {
           "name": "Venue",
           "type": "text",
-          "value": "The Grand Hotel\nLondon",
-          "font_family": "Playfair Display",
+          "value": "THE GRAND HOTEL\nLONDON, ENGLAND",
+          "font_family": "Montserrat",
           "font_size": "20px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "75%" },
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "80%"
+          },
           "editable": true
         }
       ]
@@ -131,34 +203,40 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#FFFFFF",
+          "default_value": "#F3EBDD",
           "editable": true
         },
         {
-          "name": "Border",
+          "name": "Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border.svg",
-          "color_overlay": "#D4AF37",
+          "color_overlay": "#7A6650",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "RSVP",
-          "font_family": "Dancing Script",
-          "font_size": "36px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "20%" },
+          "font_family": "Cormorant Garamond",
+          "font_size": "42px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "25%"
+          },
           "editable": true
         },
         {
           "name": "Response Line",
           "type": "text",
-          "value": "Kindly Respond by September 1st",
+          "value": "KINDLY RESPOND BY SEPTEMBER 1ST",
           "font_family": "Montserrat",
-          "font_size": "14px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "40%" },
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "45%"
+          },
           "editable": true
         },
         {
@@ -167,8 +245,35 @@
           "value": "M___________________________",
           "font_family": "Montserrat",
           "font_size": "14px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "60%" },
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "65%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Options",
+          "type": "text",
+          "value": "[ ] GRACIOUSLY ACCEPTS  [ ] REGRETFULLY DECLINES",
+          "font_family": "Montserrat",
+          "font_size": "10px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "80%"
+          },
           "editable": true
         }
       ]
@@ -182,34 +287,51 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#FFFFFF",
+          "default_value": "#F3EBDD",
           "editable": true
         },
         {
-          "name": "Border",
+          "name": "Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border.svg",
-          "color_overlay": "#D4AF37",
+          "color_overlay": "#7A6650",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "Thank You",
-          "font_family": "Dancing Script",
-          "font_size": "36px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "40%" },
+          "font_family": "Cormorant Garamond",
+          "font_size": "48px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "40%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
           "editable": true
         },
         {
           "name": "Signature",
           "type": "text",
-          "value": "With love, Emma & James",
-          "font_family": "Playfair Display",
-          "font_size": "18px",
-          "color": "#333333",
-          "position": { "x": "center", "y": "70%" },
+          "value": "WITH LOVE, THE NEWLYWEDS",
+          "font_family": "Montserrat",
+          "font_size": "14px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "70%"
+          },
           "editable": true
         }
       ]
@@ -220,9 +342,75 @@
       "type": "Save the Date",
       "dimensions": "5x7 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FFFFFF", "editable": true },
-        { "name": "Couple Names", "type": "text", "value": "ALEX & JORDAN", "font_family": "Montserrat", "font_size": "48px", "color": "#000000", "position": { "x": "center", "y": "40%" }, "editable": true },
-        { "name": "Date", "type": "text", "value": "08.24.2024", "font_family": "Open Sans", "font_size": "18px", "color": "#000000", "position": { "x": "center", "y": "60%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F5F2EC",
+          "editable": true
+        },
+        {
+          "name": "Fine Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "30%"
+          },
+          "color_overlay": "#9B7653",
+          "editable": true
+        },
+        {
+          "name": "Decorative Block",
+          "type": "color",
+          "default_value": "#000000",
+          "position": {
+            "x": "70%",
+            "y": "0%",
+            "width": "30%",
+            "height": "100%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Names",
+          "type": "text",
+          "value": "ALEX\n& JORDAN",
+          "font_family": "Cormorant Garamond",
+          "font_size": "72px",
+          "color": "#24313A",
+          "position": {
+            "x": "10%",
+            "y": "30%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "SAVE THE DATE",
+          "font_family": "Cormorant Garamond",
+          "font_size": "14px",
+          "color": "#9B7653",
+          "position": {
+            "x": "75%",
+            "y": "10%",
+            "rotation": "90"
+          },
+          "editable": true
+        },
+        {
+          "name": "Date",
+          "type": "text",
+          "value": "08.24.2024",
+          "font_family": "Montserrat",
+          "font_size": "24px",
+          "color": "#9B7653",
+          "position": {
+            "x": "10%",
+            "y": "70%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -231,9 +419,49 @@
       "type": "Invitation",
       "dimensions": "5x7 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FFFFFF", "editable": true },
-        { "name": "Couple Names", "type": "text", "value": "ALEX & JORDAN", "font_family": "Montserrat", "font_size": "48px", "color": "#000000", "position": { "x": "center", "y": "30%" }, "editable": true },
-        { "name": "Details", "type": "text", "value": "JOIN US FOR OUR WEDDING\nSATURDAY AT 4PM\nTHE MODERN GALLERY", "font_family": "Open Sans", "font_size": "14px", "color": "#000000", "position": { "x": "center", "y": "60%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F5F2EC",
+          "editable": true
+        },
+        {
+          "name": "Names Bold",
+          "type": "text",
+          "value": "ALEX\n& JORDAN",
+          "font_family": "Montserrat",
+          "font_size": "84px",
+          "color": "#24313A",
+          "position": {
+            "x": "10%",
+            "y": "20%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Divider",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
+          "color_overlay": "#24313A",
+          "position": {
+            "x": "10%",
+            "y": "60%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Details",
+          "type": "text",
+          "value": "THE WEDDING\nSATURDAY AUGUST 24 2024\n4:00 PM\nTHE MODERN GALLERY",
+          "font_family": "Montserrat",
+          "font_size": "14px",
+          "color": "#24313A",
+          "position": {
+            "x": "10%",
+            "y": "70%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -242,11 +470,75 @@
       "type": "RSVP",
       "dimensions": "5x3.5 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FFFFFF", "editable": true },
-        { "name": "Title", "type": "text", "value": "RSVP", "font_family": "Montserrat", "font_size": "36px", "color": "#000000", "position": { "x": "center", "y": "20%" }, "editable": true },
-        { "name": "Line", "type": "text", "value": "M___________________________", "font_family": "Open Sans", "font_size": "14px", "color": "#000000", "position": { "x": "center", "y": "50%" }, "editable": true },
-        { "name": "Divider", "type": "image/svg", "src": "/home/team/shared/templates/assets/minimalist_divider.svg", "position": { "x": "center", "y": "60%" }, "editable": true },
-        { "name": "Options", "type": "text", "value": "[ ] Accepts with Pleasure\n[ ] Declines with Regret", "font_family": "Open Sans", "font_size": "12px", "color": "#000000", "position": { "x": "center", "y": "70%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F5F2EC",
+          "editable": true
+        },
+        {
+          "name": "Fine Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "30%"
+          },
+          "color_overlay": "#9B7653",
+          "editable": true
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "RSVP",
+          "font_family": "Cormorant Garamond",
+          "font_size": "48px",
+          "color": "#9B7653",
+          "position": {
+            "x": "10%",
+            "y": "20%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Deadline",
+          "type": "text",
+          "value": "BY SEPTEMBER 1ST",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#24313A",
+          "position": {
+            "x": "10%",
+            "y": "45%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Name Line",
+          "type": "text",
+          "value": "M___________________________",
+          "font_family": "Montserrat",
+          "font_size": "14px",
+          "color": "#24313A",
+          "position": {
+            "x": "10%",
+            "y": "60%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Options",
+          "type": "text",
+          "value": "ATTENDING / DECLINING",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#24313A",
+          "position": {
+            "x": "10%",
+            "y": "75%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -255,9 +547,49 @@
       "type": "Thank You",
       "dimensions": "5x3.5 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FFFFFF", "editable": true },
-        { "name": "Title", "type": "text", "value": "THANK YOU", "font_family": "Montserrat", "font_size": "36px", "color": "#000000", "position": { "x": "center", "y": "40%" }, "editable": true },
-        { "name": "Signature", "type": "text", "value": "With love, Alex & Jordan", "font_family": "Open Sans", "font_size": "14px", "color": "#000000", "position": { "x": "center", "y": "70%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F5F2EC",
+          "editable": true
+        },
+        {
+          "name": "Fine Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "30%"
+          },
+          "color_overlay": "#9B7653",
+          "editable": true
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "THANK YOU",
+          "font_family": "Cormorant Garamond",
+          "font_size": "48px",
+          "color": "#9B7653",
+          "position": {
+            "x": "center",
+            "y": "40%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Names",
+          "type": "text",
+          "value": "ALEX & JORDAN",
+          "font_family": "Cormorant Garamond",
+          "font_size": "14px",
+          "color": "#24313A",
+          "position": {
+            "x": "center",
+            "y": "70%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -266,9 +598,73 @@
       "type": "Save the Date",
       "dimensions": "5x7 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FEFAE0", "editable": true },
-        { "name": "Couple Names", "type": "text", "value": "Lily & Rowan", "font_family": "Dancing Script", "font_size": "48px", "color": "#BC6C25", "position": { "x": "center", "y": "40%" }, "editable": true },
-        { "name": "Details", "type": "text", "value": "SAVE THE DATE\nMAY 15, 2025", "font_family": "Playfair Display", "font_size": "18px", "color": "#606C38", "position": { "x": "center", "y": "60%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Wildflower Accent",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_wildflowers.svg",
+          "position": {
+            "x": "center",
+            "y": "10%"
+          },
+          "editable": true,
+          "color_overlay": "#7A6650"
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "Save the Date",
+          "font_family": "Cormorant Garamond",
+          "font_size": "54px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "45%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Couple Names",
+          "type": "text",
+          "value": "Lily & Rowan",
+          "font_family": "Cormorant Garamond",
+          "font_size": "32px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "60%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Date",
+          "type": "text",
+          "value": "MAY 15, 2025",
+          "font_family": "Montserrat",
+          "font_size": "18px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "75%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -277,33 +673,86 @@
       "type": "Invitation",
       "dimensions": "5x7 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FEFAE0", "editable": true },
-        { "name": "Couple Names", "type": "text", "value": "Lily & Rowan", "font_family": "Dancing Script", "font_size": "56px", "color": "#BC6C25", "position": { "x": "center", "y": "30%" }, "editable": true },
-        { "name": "Details", "type": "text", "value": "TOGETHER WITH THEIR FAMILIES\nINVITE YOU TO CELEBRATE THEIR WEDDING", "font_family": "Playfair Display", "font_size": "16px", "color": "#606C38", "position": { "x": "center", "y": "50%" }, "editable": true }
-      ]
-    },
-    {
-      "id": "save-the-date-noir",
-      "name": "Classic Noir Save the Date",
-      "type": "Save the Date",
-      "dimensions": "5x7 inches",
-      "layers": [
-        { "name": "Background", "type": "color", "default_value": "#000000", "editable": true },
-        { "name": "Border", "type": "image/svg", "src": "/home/team/shared/templates/assets/noir_border.svg", "editable": true },
-        { "name": "Title", "type": "text", "value": "Save the Date", "font_family": "Pinyon Script", "font_size": "64px", "color": "#FFFFFF", "position": { "x": "center", "y": "30%" }, "editable": true },
-        { "name": "Couple Names", "type": "text", "value": "EMMA & JAMES", "font_family": "Crimson Text", "font_size": "24px", "color": "#FFFFFF", "position": { "x": "center", "y": "50%" }, "editable": true }
-      ]
-    },
-    {
-      "id": "invitation-noir",
-      "name": "Classic Noir Invitation",
-      "type": "Invitation",
-      "dimensions": "5x7 inches",
-      "layers": [
-        { "name": "Background", "type": "color", "default_value": "#000000", "editable": true },
-        { "name": "Border", "type": "image/svg", "src": "/home/team/shared/templates/assets/noir_border.svg", "editable": true },
-        { "name": "Couple Names", "type": "text", "value": "Emma & James", "font_family": "Pinyon Script", "font_size": "72px", "color": "#FFFFFF", "position": { "x": "center", "y": "35%" }, "editable": true },
-        { "name": "Details", "type": "text", "value": "SATURDAY, THE TWELFTH OF OCTOBER\nTWO THOUSAND TWENTY-FOUR", "font_family": "Crimson Text", "font_size": "18px", "color": "#FFFFFF", "position": { "x": "center", "y": "60%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Floral Border",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_border.svg",
+          "position": {
+            "x": "center",
+            "y": "center"
+          },
+          "editable": true,
+          "color_overlay": "#7A6650"
+        },
+        {
+          "name": "Header",
+          "type": "text",
+          "value": "TOGETHER WITH THEIR FAMILIES",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "20%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Couple Names",
+          "type": "text",
+          "value": "Lily & Rowan",
+          "font_family": "Cormorant Garamond",
+          "font_size": "64px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "40%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Details",
+          "type": "text",
+          "value": "JOIN US AS WE SAY I DO\nSATURDAY MAY 15 2025\n4 O'CLOCK IN THE AFTERNOON",
+          "font_family": "Montserrat",
+          "font_size": "14px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "65%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Venue",
+          "type": "text",
+          "value": "THE CEDAR GARDENS\nSANTA BARBARA, CA",
+          "font_family": "Montserrat",
+          "font_size": "16px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "85%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -312,11 +761,73 @@
       "type": "RSVP",
       "dimensions": "5x3.5 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FEFAE0", "editable": true },
-        { "name": "Title", "type": "text", "value": "RSVP", "font_family": "Dancing Script", "font_size": "36px", "color": "#BC6C25", "position": { "x": "center", "y": "20%" }, "editable": true },
-        { "name": "Divider", "type": "image/svg", "src": "/home/team/shared/templates/assets/boho_divider.svg", "position": { "x": "center", "y": "35%" }, "editable": true },
-        { "name": "Line", "type": "text", "value": "M___________________________", "font_family": "Playfair Display", "font_size": "14px", "color": "#606C38", "position": { "x": "center", "y": "55%" }, "editable": true },
-        { "name": "Options", "type": "text", "value": "[ ] Will attend\n[ ] Will not attend", "font_family": "Playfair Display", "font_size": "12px", "color": "#606C38", "position": { "x": "center", "y": "75%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Floral Corner",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_corner.svg",
+          "position": {
+            "x": "0%",
+            "y": "0%"
+          },
+          "editable": true,
+          "color_overlay": "#7A6650"
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "RSVP",
+          "font_family": "Cormorant Garamond",
+          "font_size": "42px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "25%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Response",
+          "type": "text",
+          "value": "KINDLY RESPOND BY APRIL 1ST",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "45%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Name Line",
+          "type": "text",
+          "value": "NAMES________________________",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "65%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -325,9 +836,196 @@
       "type": "Thank You",
       "dimensions": "5x3.5 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#FEFAE0", "editable": true },
-        { "name": "Title", "type": "text", "value": "Thank You", "font_family": "Dancing Script", "font_size": "36px", "color": "#BC6C25", "position": { "x": "center", "y": "40%" }, "editable": true },
-        { "name": "Signature", "type": "text", "value": "With gratitude, Lily & Rowan", "font_family": "Playfair Display", "font_size": "14px", "color": "#606C38", "position": { "x": "center", "y": "70%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Floral Accent",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_wildflowers.svg",
+          "position": {
+            "x": "center",
+            "y": "15%"
+          },
+          "editable": true,
+          "color_overlay": "#7A6650"
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "Thank You",
+          "font_family": "Cormorant Garamond",
+          "font_size": "48px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "50%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Message",
+          "type": "text",
+          "value": "WITH ALL OUR LOVE, L&R",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "80%"
+          },
+          "editable": true
+        }
+      ]
+    },
+    {
+      "id": "save-the-date-noir",
+      "name": "Classic Noir Save the Date",
+      "type": "Save the Date",
+      "dimensions": "5x7 inches",
+      "layers": [
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "SAVE THE DATE",
+          "font_family": "Cormorant Garamond",
+          "font_size": "14px",
+          "letter_spacing": "5px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "15%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Names Calligraphy",
+          "type": "text",
+          "value": "Emma & James",
+          "font_family": "Montserrat",
+          "font_size": "72px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "45%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Date",
+          "type": "text",
+          "value": "10 . 12 . 24",
+          "font_family": "Montserrat",
+          "font_size": "24px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "75%"
+          },
+          "editable": true
+        }
+      ]
+    },
+    {
+      "id": "invitation-noir",
+      "name": "Classic Noir Invitation",
+      "type": "Invitation",
+      "dimensions": "5x7 inches",
+      "layers": [
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Editorial Border",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/noir_border.svg",
+          "color_overlay": "#7A6650",
+          "editable": true
+        },
+        {
+          "name": "Names",
+          "type": "text",
+          "value": "Emma & James",
+          "font_family": "Cormorant Garamond",
+          "font_size": "84px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "30%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Header",
+          "type": "text",
+          "value": "TOGETHER WITH THEIR FAMILIES",
+          "font_family": "Montserrat",
+          "font_size": "10px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "55%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Details",
+          "type": "text",
+          "value": "INVITE YOU TO CELEBRATE THEIR WEDDING\nOCTOBER TWELFTH TWENTY TWENTY-FOUR\nLONDON, ENGLAND",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "70%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -336,11 +1034,62 @@
       "type": "RSVP",
       "dimensions": "5x3.5 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#000000", "editable": true },
-        { "name": "Border", "type": "image/svg", "src": "/home/team/shared/templates/assets/noir_border.svg", "editable": true },
-        { "name": "Title", "type": "text", "value": "RSVP", "font_family": "Pinyon Script", "font_size": "42px", "color": "#FFFFFF", "position": { "x": "center", "y": "25%" }, "editable": true },
-        { "name": "Line", "type": "text", "value": "M___________________________", "font_family": "Crimson Text", "font_size": "14px", "color": "#FFFFFF", "position": { "x": "center", "y": "55%" }, "editable": true },
-        { "name": "Options", "type": "text", "value": "[ ] GRACIOUSLY ACCEPTS\n[ ] REGRETFULLY DECLINES", "font_family": "Crimson Text", "font_size": "12px", "color": "#FFFFFF", "position": { "x": "center", "y": "75%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "RSVP",
+          "font_family": "Cormorant Garamond",
+          "font_size": "54px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "30%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Deadline",
+          "type": "text",
+          "value": "BY SEPTEMBER FIRST",
+          "font_family": "Montserrat",
+          "font_size": "10px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "55%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Name Line",
+          "type": "text",
+          "value": "M___________________________",
+          "font_family": "Montserrat",
+          "font_size": "12px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "75%"
+          },
+          "editable": true
+        }
       ]
     },
     {
@@ -349,65 +1098,50 @@
       "type": "Thank You",
       "dimensions": "5x3.5 inches",
       "layers": [
-        { "name": "Background", "type": "color", "default_value": "#000000", "editable": true },
-        { "name": "Border", "type": "image/svg", "src": "/home/team/shared/templates/assets/noir_border.svg", "editable": true },
-        { "name": "Title", "type": "text", "value": "Thank You", "font_family": "Pinyon Script", "font_size": "48px", "color": "#FFFFFF", "position": { "x": "center", "y": "40%" }, "editable": true },
-        { "name": "Signature", "type": "text", "value": "With appreciation, Emma & James", "font_family": "Crimson Text", "font_size": "14px", "color": "#FFFFFF", "position": { "x": "center", "y": "70%" }, "editable": true }
+        {
+          "name": "Background",
+          "type": "color",
+          "default_value": "#F3EBDD",
+          "editable": true
+        },
+        {
+          "name": "Title",
+          "type": "text",
+          "value": "THANK YOU",
+          "font_family": "Cormorant Garamond",
+          "font_size": "42px",
+          "color": "#A65D3B",
+          "position": {
+            "x": "center",
+            "y": "40%"
+          },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
+          "editable": true
+        },
+        {
+          "name": "Signature",
+          "type": "text",
+          "value": "E & J",
+          "font_family": "Montserrat",
+          "font_size": "36px",
+          "color": "#3F5145",
+          "position": {
+            "x": "center",
+            "y": "70%"
+          },
+          "editable": true
+        }
       ]
     }
   ]
 }
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
-/home/engine/.bashrc: line 1: syntax error near unexpected token `('
-/home/engine/.bashrc: line 1: `. /etc/profile.d/workload-containment.shn# ~/.bashrc: executed by bash(1) for non-login shells.'
