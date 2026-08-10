@@ -9,23 +9,23 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#F7E7CE",
           "editable": true
         },
         {
           "name": "Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border.svg",
-          "color_overlay": "#7A6650",
+          "color_overlay": "#D4AF37",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "Save the Date",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Great Vibes",
           "font_size": "54px",
-          "color": "#A65D3B",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "18%"
@@ -38,7 +38,7 @@
           "value": "PLEASE JOIN US FOR THE WEDDING OF",
           "font_family": "Montserrat",
           "font_size": "12px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "32%"
@@ -49,9 +49,9 @@
           "name": "Couple Names",
           "type": "text",
           "value": "Emma & James",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Playfair Display",
           "font_size": "42px",
-          "color": "#A65D3B",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "45%"
@@ -64,22 +64,11 @@
           "value": "October 12th, 2024",
           "font_family": "Montserrat",
           "font_size": "16px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "65%"
           },
-          "editable": true
-        },
-        {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
           "editable": true
         },
         {
@@ -88,7 +77,7 @@
           "value": "London, England",
           "font_family": "Montserrat",
           "font_size": "16px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "72%"
@@ -106,14 +95,14 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#F7E7CE",
           "editable": true
         },
         {
           "name": "Heavy Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border_thick.svg",
-          "color_overlay": "#7A6650",
+          "color_overlay": "#D4AF37",
           "editable": true
         },
         {
@@ -122,7 +111,7 @@
           "value": "TOGETHER WITH THEIR FAMILIES",
           "font_family": "Montserrat",
           "font_size": "10px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "15%"
@@ -135,7 +124,7 @@
           "value": "REQUEST THE HONOR OF YOUR PRESENCE AT THE WEDDING OF",
           "font_family": "Montserrat",
           "font_size": "10px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "22%"
@@ -146,9 +135,9 @@
           "name": "Couple Names",
           "type": "text",
           "value": "Emma & James",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Playfair Display",
           "font_size": "48px",
-          "color": "#A65D3B",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "38%"
@@ -161,7 +150,7 @@
           "value": "SATURDAY, THE TWELFTH OF OCTOBER\nTWO THOUSAND TWENTY-FOUR\nAT FOUR O\u2019CLOCK IN THE AFTERNOON",
           "font_family": "Montserrat",
           "font_size": "14px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "60%"
@@ -169,23 +158,12 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Venue",
           "type": "text",
           "value": "THE GRAND HOTEL\nLONDON, ENGLAND",
-          "font_family": "Montserrat",
+          "font_family": "Playfair Display",
           "font_size": "20px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "80%"
@@ -203,23 +181,23 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#F7E7CE",
           "editable": true
         },
         {
           "name": "Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border.svg",
-          "color_overlay": "#7A6650",
+          "color_overlay": "#D4AF37",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "RSVP",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Great Vibes",
           "font_size": "42px",
-          "color": "#A65D3B",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "25%"
@@ -232,7 +210,7 @@
           "value": "KINDLY RESPOND BY SEPTEMBER 1ST",
           "font_family": "Montserrat",
           "font_size": "12px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "45%"
@@ -245,22 +223,11 @@
           "value": "M___________________________",
           "font_family": "Montserrat",
           "font_size": "14px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "65%"
           },
-          "editable": true
-        },
-        {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
           "editable": true
         },
         {
@@ -269,7 +236,7 @@
           "value": "[ ] GRACIOUSLY ACCEPTS  [ ] REGRETFULLY DECLINES",
           "font_family": "Montserrat",
           "font_size": "10px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "80%"
@@ -287,23 +254,23 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#F7E7CE",
           "editable": true
         },
         {
           "name": "Ornate Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/gold_border.svg",
-          "color_overlay": "#7A6650",
+          "color_overlay": "#D4AF37",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "Thank You",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Great Vibes",
           "font_size": "48px",
-          "color": "#A65D3B",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "40%"
@@ -311,23 +278,12 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Signature",
           "type": "text",
           "value": "WITH LOVE, THE NEWLYWEDS",
-          "font_family": "Montserrat",
+          "font_family": "Playfair Display",
           "font_size": "14px",
-          "color": "#3F5145",
+          "color": "#002366",
           "position": {
             "x": "center",
             "y": "70%"
@@ -345,18 +301,18 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F5F2EC",
+          "default_value": "#F5F0EB",
           "editable": true
         },
         {
-          "name": "Fine Rule",
+          "name": "Minimalist Fine Rule",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
           "position": {
             "x": "center",
-            "y": "30%"
+            "y": "25%"
           },
-          "color_overlay": "#9B7653",
+          "color_overlay": "#A66A44",
           "editable": true
         },
         {
@@ -390,7 +346,7 @@
           "value": "SAVE THE DATE",
           "font_family": "Cormorant Garamond",
           "font_size": "14px",
-          "color": "#9B7653",
+          "color": "#A66A44",
           "position": {
             "x": "75%",
             "y": "10%",
@@ -404,7 +360,7 @@
           "value": "08.24.2024",
           "font_family": "Montserrat",
           "font_size": "24px",
-          "color": "#9B7653",
+          "color": "#A66A44",
           "position": {
             "x": "10%",
             "y": "70%"
@@ -422,14 +378,14 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F5F2EC",
+          "default_value": "#F5F0EB",
           "editable": true
         },
         {
           "name": "Names Bold",
           "type": "text",
           "value": "ALEX\n& JORDAN",
-          "font_family": "Montserrat",
+          "font_family": "Cormorant Garamond",
           "font_size": "84px",
           "color": "#24313A",
           "position": {
@@ -442,7 +398,7 @@
           "name": "Divider",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
-          "color_overlay": "#24313A",
+          "color_overlay": "#A66A44",
           "position": {
             "x": "10%",
             "y": "60%"
@@ -473,18 +429,18 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F5F2EC",
+          "default_value": "#F5F0EB",
           "editable": true
         },
         {
-          "name": "Fine Rule",
+          "name": "Minimalist Fine Rule",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
           "position": {
             "x": "center",
-            "y": "30%"
+            "y": "25%"
           },
-          "color_overlay": "#9B7653",
+          "color_overlay": "#A66A44",
           "editable": true
         },
         {
@@ -493,7 +449,7 @@
           "value": "RSVP",
           "font_family": "Cormorant Garamond",
           "font_size": "48px",
-          "color": "#9B7653",
+          "color": "#A66A44",
           "position": {
             "x": "10%",
             "y": "20%"
@@ -550,18 +506,18 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F5F2EC",
+          "default_value": "#F5F0EB",
           "editable": true
         },
         {
-          "name": "Fine Rule",
+          "name": "Minimalist Fine Rule",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/minimalist_divider.svg",
           "position": {
             "x": "center",
-            "y": "30%"
+            "y": "25%"
           },
-          "color_overlay": "#9B7653",
+          "color_overlay": "#A66A44",
           "editable": true
         },
         {
@@ -570,7 +526,7 @@
           "value": "THANK YOU",
           "font_family": "Cormorant Garamond",
           "font_size": "48px",
-          "color": "#9B7653",
+          "color": "#A66A44",
           "position": {
             "x": "center",
             "y": "40%"
@@ -642,17 +598,6 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Date",
           "type": "text",
           "value": "MAY 15, 2025",
@@ -663,6 +608,17 @@
             "x": "center",
             "y": "75%"
           },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
           "editable": true
         }
       ]
@@ -694,7 +650,7 @@
           "name": "Header",
           "type": "text",
           "value": "TOGETHER WITH THEIR FAMILIES",
-          "font_family": "Montserrat",
+          "font_family": "Cormorant Garamond",
           "font_size": "12px",
           "color": "#3F5145",
           "position": {
@@ -730,17 +686,6 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Venue",
           "type": "text",
           "value": "THE CEDAR GARDENS\nSANTA BARBARA, CA",
@@ -751,6 +696,17 @@
             "x": "center",
             "y": "85%"
           },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
           "editable": true
         }
       ]
@@ -805,17 +761,6 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Name Line",
           "type": "text",
           "value": "NAMES________________________",
@@ -826,6 +771,17 @@
             "x": "center",
             "y": "65%"
           },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
           "editable": true
         }
       ]
@@ -867,17 +823,6 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Message",
           "type": "text",
           "value": "WITH ALL OUR LOVE, L&R",
@@ -888,6 +833,17 @@
             "x": "center",
             "y": "80%"
           },
+          "editable": true
+        },
+        {
+          "name": "Botanical Rule",
+          "type": "image/svg",
+          "src": "/home/team/shared/templates/assets/boho_divider.svg",
+          "position": {
+            "x": "center",
+            "y": "92%"
+          },
+          "color_overlay": "#A65D3B",
           "editable": true
         }
       ]
@@ -901,17 +857,17 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#000000",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "SAVE THE DATE",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Crimson Text",
           "font_size": "14px",
           "letter_spacing": "5px",
-          "color": "#A65D3B",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "15%"
@@ -922,9 +878,9 @@
           "name": "Names Calligraphy",
           "type": "text",
           "value": "Emma & James",
-          "font_family": "Montserrat",
+          "font_family": "Pinyon Script",
           "font_size": "72px",
-          "color": "#3F5145",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "45%"
@@ -932,23 +888,12 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Date",
           "type": "text",
           "value": "10 . 12 . 24",
-          "font_family": "Montserrat",
+          "font_family": "Crimson Text",
           "font_size": "24px",
-          "color": "#3F5145",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "75%"
@@ -966,23 +911,23 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#000000",
           "editable": true
         },
         {
           "name": "Editorial Border",
           "type": "image/svg",
           "src": "/home/team/shared/templates/assets/noir_border.svg",
-          "color_overlay": "#7A6650",
+          "color_overlay": "#FFFFFF",
           "editable": true
         },
         {
           "name": "Names",
           "type": "text",
           "value": "Emma & James",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Pinyon Script",
           "font_size": "84px",
-          "color": "#A65D3B",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "30%"
@@ -993,9 +938,9 @@
           "name": "Header",
           "type": "text",
           "value": "TOGETHER WITH THEIR FAMILIES",
-          "font_family": "Montserrat",
+          "font_family": "Crimson Text",
           "font_size": "10px",
-          "color": "#3F5145",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "55%"
@@ -1003,23 +948,12 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Details",
           "type": "text",
           "value": "INVITE YOU TO CELEBRATE THEIR WEDDING\nOCTOBER TWELFTH TWENTY TWENTY-FOUR\nLONDON, ENGLAND",
-          "font_family": "Montserrat",
+          "font_family": "Crimson Text",
           "font_size": "12px",
-          "color": "#3F5145",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "70%"
@@ -1037,16 +971,16 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#000000",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "RSVP",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Pinyon Script",
           "font_size": "54px",
-          "color": "#A65D3B",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "30%"
@@ -1057,9 +991,9 @@
           "name": "Deadline",
           "type": "text",
           "value": "BY SEPTEMBER FIRST",
-          "font_family": "Montserrat",
+          "font_family": "Crimson Text",
           "font_size": "10px",
-          "color": "#3F5145",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "55%"
@@ -1067,23 +1001,12 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Name Line",
           "type": "text",
           "value": "M___________________________",
-          "font_family": "Montserrat",
+          "font_family": "Crimson Text",
           "font_size": "12px",
-          "color": "#3F5145",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "75%"
@@ -1101,16 +1024,16 @@
         {
           "name": "Background",
           "type": "color",
-          "default_value": "#F3EBDD",
+          "default_value": "#000000",
           "editable": true
         },
         {
           "name": "Title",
           "type": "text",
           "value": "THANK YOU",
-          "font_family": "Cormorant Garamond",
+          "font_family": "Crimson Text",
           "font_size": "42px",
-          "color": "#A65D3B",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "40%"
@@ -1118,23 +1041,12 @@
           "editable": true
         },
         {
-          "name": "Botanical Rule",
-          "type": "image/svg",
-          "src": "/home/team/shared/templates/assets/boho_divider.svg",
-          "position": {
-            "x": "center",
-            "y": "92%"
-          },
-          "color_overlay": "#A65D3B",
-          "editable": true
-        },
-        {
           "name": "Signature",
           "type": "text",
           "value": "E & J",
-          "font_family": "Montserrat",
+          "font_family": "Pinyon Script",
           "font_size": "36px",
-          "color": "#3F5145",
+          "color": "#FFFFFF",
           "position": {
             "x": "center",
             "y": "70%"
